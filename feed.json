@@ -1,0 +1,12 @@
+{
+  "type": "potluck-feed-v1",
+  "apps": [
+    {
+      "repo": "Tubifix77/potluck-store",
+      "dir": "apps/overheat_alarm",
+      "name": "overheat_alarm",
+      "description": "Smooths a temperature and raises an alarm above 38 C; keeps its count across a failover."
+    }
+  ],
+  "removed": []
+}

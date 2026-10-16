@@ -1,0 +1,19 @@
+{
+  "type": "potluck-app-v1",
+  "name": "overheat_alarm",
+  "description": "Smooths a temperature and raises an alarm above 38 C (off below 37 C); keeps its count across a failover.",
+  "author_key": "47bfb3505462d8bb2cc13454a14e4eeb95fb678a310360020f144c8abe08e7bf",
+  "module": "overheat_alarm.wasm",
+  "sha256": "cb12c6e69b59e8144d0f937cef8a29d5e45598c4828aabf4a261edd81891b650",
+  "sig": "6ce6f601f6a54ccd8e3be4fa0370102705137b38fc8f60a06820fea1040088da599d96fcf014ab6820936c6f490ba7e8b3e54e947daae5da9ed914e796a7f707",
+  "inputs": [
+    {
+      "name": "temperature",
+      "type": "f32",
+      "unit": "celsius"
+    }
+  ],
+  "outputs": "out:f32 alarm:i32 count:i32",
+  "fuel": 100000,
+  "period_ms": 1000
+}
